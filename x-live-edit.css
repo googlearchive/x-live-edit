@@ -2,15 +2,13 @@
 Copyright 2013 The Toolkitchen Authors. All rights reserved.
 Use of this source code is governed by a BSD-style
 license that can be found in the LICENSE file.
-*/
+ */
 
-@host {
-  * {
-    display: block;
-    position: relative;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-  }
+:host {
+  display: block;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
 }
 
 #liveEditor:not([gridlayout]) {
@@ -18,13 +16,13 @@ license that can be found in the LICENSE file.
 }
 
 #liveEditor:not([vertical]) {
-	width: 540px;
-	height: auto !important;
+  width: 540px;
+  height: auto !important;
 }
 
 #liveEditor[vertical] {
-	width: auto !important;
-	height: 200px;
+  width: auto !important;
+  height: 200px;
 }
 
 x-output {
